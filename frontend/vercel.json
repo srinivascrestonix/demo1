@@ -6,5 +6,8 @@
   "rootDirectory": "frontend",
   "env": {
     "VITE_API_URL": "https://your-backend-production.up.railway.app/api"
-  }
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
 }
